@@ -1,6 +1,11 @@
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 
+iziToast.info({
+  title: 'Hello',
+  message: 'Welcome!',
+});
+
 const form = document.querySelector('.form');
 
 form.addEventListener('submit', event => {
