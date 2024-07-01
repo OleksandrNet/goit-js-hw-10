@@ -1,0 +1,47 @@
+input {
+  display: block;
+  margin-bottom: 32px;
+  width: 272px;
+  height: 40px;
+}
+
+button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  background: #cfcfcf;
+}
+
+button:hover {
+  background: #6c8cff;
+}
+
+.timer {
+  display: flex;
+  gap: 24px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.value {
+  align-items: center;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.label {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+}

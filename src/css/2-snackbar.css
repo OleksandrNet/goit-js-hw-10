@@ -1,0 +1,33 @@
+.form {
+}
+
+.delay {
+  width: 360px;
+}
+
+.btn {
+  margin-top: 24px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
+  background: #4e75ff;
+}
+
+fieldset {
+  display: flex;
+  width: 360px;
+  gap: 48px;
+}
+
+.input {
+  display: flex;
+  width: 32px;
+  align-items: center;
+  margin-right: 8px;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+}
