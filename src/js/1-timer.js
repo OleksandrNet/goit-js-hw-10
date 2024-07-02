@@ -44,6 +44,7 @@ startBtn.addEventListener('click', () => {
   const countdownInterval = setInterval(() => {
     const currentTime = new Date();
     const timeDifference = userSelectedDate - currentTime;
+    updateTimerDisplay(timeDifference)
     if (timeDifference <= 1000) {
       clearInterval(countdownInterval);
       dateTimePicker.disabled = false;
