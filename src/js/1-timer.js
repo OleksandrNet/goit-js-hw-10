@@ -44,7 +44,7 @@ startBtn.addEventListener('click', () => {
   const countdownInterval = setInterval(() => {
     const currentTime = new Date();
     const timeDifference = userSelectedDate - currentTime;
-    if (timeDifference < 1000) {
+    if (timeDifference === 0) {
       clearInterval(countdownInterval);
       dateTimePicker.disabled = false;
       iziToast.success({ message: 'Countdown completed!' });
